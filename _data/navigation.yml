@@ -1,0 +1,33 @@
+header:
+  - title: 最新文章
+    url: /index.html
+  - title: PYTHON
+    url: /python/quick-start.html
+    key: python
+  - title: JAVA
+    url: /java/one.html
+    key: java
+  - title: 历史文章
+    key: tags
+    url: /archive.html
+
+
+python-sidebar-navigation:
+  - title:      定制
+    children:
+      - title:  配置
+        url:    /python/quick-start.html
+      - title:  导航栏
+        url:    /python/navigation.html
+  - title:      内容
+    children:
+      - title:  撰写博客
+        url:    /python/writing-posts.html
+
+java-sidebar-navigation:
+  - title:      Java教程
+    children:
+      - title:  one
+        url:    /java/one.html
+      - title:  two
+        url:    /java/two.html
